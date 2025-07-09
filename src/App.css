@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+
+nav ul li:hover{
+    color: blue ;
+}
+.mobile-menu{
+    @apply fixed top-14 left-0 w-full bg-gray-800 h-1/4
+}
+.mobile-menu li{
+    @apply w-full h-1/4 text-center border-b-2
+}
+
+.ibrand{
+    /* font-family: 'iBrand';
+    src: url('/public/fonts/Ibrand.ttf') format('truetype'); */
+    font-family:monospace;
+}
+.description{
+    @apply w-full h-full bg-gray-400 absolute top-0 flex justify-center  py-20 opacity-0 duration-500 hover:opacity-100 cursor-pointer
+}
+.project-link{
+    @apply flex justify-center text-white bg-blue-900 font-bold border-2 p-1 mt-5
+}
+.btn{
+    @apply bg-blue-700 px-5 md:ms-3 py-2 font-bold rounded hover:border-2 border-white
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    overflow-x: hidden;
+}
