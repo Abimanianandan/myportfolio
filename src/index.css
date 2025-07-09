@@ -8,7 +8,7 @@ nav ul li:hover{
     @apply fixed top-14 left-0 w-full bg-gray-800 h-1/4
 }
 .mobile-menu li{
-    @apply w-full h-1/4 text-center border-b-2
+    @apply w-full h-1/4 text-center border-b-2 bg-gray-800
 }
 
 .ibrand{
